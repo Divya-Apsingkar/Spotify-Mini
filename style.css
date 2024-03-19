@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav
+{
+    font-family:'Ubuntu','The+Nautigal';
+}
+nav ul
+{
+    display: flex;
+    align-items: center;
+    list-style-type: none ;
+    height: 89px;
+    background-color: black;
+    color: white;
+}
+nav ul li
+{
+     padding:0 12px;
+
+}
+.brand img
+{
+    width:87px;
+    padding:0 7px;
+}
+.brand
+{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
